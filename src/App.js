@@ -1,12 +1,18 @@
 import React from "react";
 import "./style.css";
 import Header from "./Header.js";
+import Section from "./Section.js"
+import Container from "./Container.js"
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Header/>
+      <main>
+        <Section/>
+        <Container/>
+        <Footer/>
+      </main>
     </div>
   );
 }
